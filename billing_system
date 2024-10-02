@@ -15,6 +15,10 @@
             <h3>Total Revenue</h3>
             <asp:Label ID="TotalRevenueLabel" runat="server" Text="0" CssClass="dashboard-value"></asp:Label>
         </div>
+        <div>
+            <asp:Button ID="btnRedirect" runat="server" Text="Customer management" OnClick="btnRedirect_Click" />
+
+        </div>
         
         <div>
             <asp:Button ID="btRedirect1" runat="server" Text="Inventory management" OnClick="btnRedirect_Click1" />
