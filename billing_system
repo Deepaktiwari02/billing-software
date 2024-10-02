@@ -1,0 +1,26 @@
+*-*-*-*-copy from the 3rd line and the code is for the body only so paste in place of body section 
+
+<body>
+    <form id="form1" runat="server">
+   <!-- Dashboard Section -->
+    <div class="dashboard" style="padding: 20px; background-color: #f0f0f0;">
+        <h2>Dashboard</h2>
+
+       <div class="dashboard-item">
+            <h3>Total Sales</h3>
+            <asp:Label ID="TotalSalesLabel" runat="server" Text="0" CssClass="dashboard-value"></asp:Label>
+        </div>
+
+        <div class="dashboard-item">
+            <h3>Total Revenue</h3>
+            <asp:Label ID="TotalRevenueLabel" runat="server" Text="0" CssClass="dashboard-value"></asp:Label>
+        </div>
+        
+        <div>
+            <asp:Button ID="btRedirect1" runat="server" Text="Inventory management" OnClick="btnRedirect_Click1" />
+
+        </div>
+    </div>
+   </form>
+
+</body>
