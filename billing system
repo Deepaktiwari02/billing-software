@@ -1,0 +1,17 @@
+*-*-*-*-*-copy code from 4th line and paste inside public partial class
+
+
+protected void Page_Load(object sender, EventArgs e)
+{
+
+}
+protected void btnRedirect_Click(object sender, EventArgs e)
+{
+    // Redirect to another page
+    Response.Redirect("Customer_management.aspx");
+}
+protected void btnRedirect_Click1(object sender, EventArgs e)
+{
+    // Redirect to another page
+    Response.Redirect("Inventory_management.aspx");
+}
